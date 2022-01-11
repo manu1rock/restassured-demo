@@ -60,6 +60,7 @@ public class SmokeTestSuite {
 		
 		//assert
 		Assert.assertEquals(user.getName(), response.then().extract().path("name").toString());
+		System.out.println("Test");
 	}
 
 }
